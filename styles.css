@@ -1,0 +1,45 @@
+
+html {
+    background: url('tulips-3.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+h1, h2, h3{
+    font-family: 'Tangerine', serif;
+}
+
+.container {
+    background-color: #F2DFCE;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 2vw;
+    margin: 60px auto 0px auto;
+    overflow: scroll;
+    padding: 10px;
+    width: 50%;   
+}
+
+strong {
+    color: #0D7680;
+}
+
+table.center {
+    border: 1px solid black;
+    background-color: #FFF1E0;
+    font-family: 'Roboto', serif;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    width: 95%;   
+}
+
+td, th {
+    border: 1px solid black;
+    overflow: hidden;
+    text-align: left;
+    width: 33%;
+}
+
+

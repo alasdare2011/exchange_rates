@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8" />
+    <title>Exchange Rate App</title>
+     <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="styles.css">
+    
+</head> 
+<body>
+    <div class="container">
+        <h1>Daily Exchange Rates</h1>
+        <h2>(In Canadian Dollars)</h2>
+        <h3>Source: Bank of Canada</h3>
+        <table class="center" >
+            <tr>
+                <th>Currency</th>
+                <th>Rate</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td>United States</td>
+                <td id="USD" ></td>
+                <td class="date" ></td>
+            </tr>
+            <tr>
+                <td>United Kingdom</td>
+                <td id="GBP" ></td>
+                <td class="date" ></td>
+            </tr>
+            <tr>
+                <td>Euro</td>
+                <td id="EUR" ></td>
+                <td class="date" ></td>
+            </tr>
+            <tr>
+                <td>New Zealand</td>
+                <td id="NZD" ></td>
+                <td class="date" ></td>
+            </tr>
+        </table>
+        <br>
+        <h3>If date is <strong>GREEN</strong>, o.k. to update exchange rates</h3>
+    </div>
+    <script src="scripts.js" ></script>
+</body>
+</html>
